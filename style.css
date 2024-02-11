@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#logo{
+    color: whitesmoke;
+}
+
+#hero-container{
+    height: 54vh;
+    background-image: url(Images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav-bar{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    width: 82%;
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 5px;
+}
+
+#logopic{
+    width: 148px;
+    height: 50px;
+}
+
+#menue{
+    position: absolute;
+    right: 30px;
+}
+
+#menue ul li{
+    list-style: none;
+    display: inline;
+    margin: 1vw;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+
+#upload-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px ;
+    padding-right: 22px;
+    font-size: large;
+    border-radius: 10px;
+    color: black;
+}
+
+#hero-text{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 18vh;
+    left: 33vw;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+}
+
+#search-bar{
+    margin-top: 25px;
+    height: 6vh;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#search-bar{
+    width: 100%;
+}
+
+#search-text{
+    width: 90%;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+#search-button{
+    width: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    font-size: large;
+}
+
+#treanding{
+    margin-top: 25px;
+}
+
+.treanding-buttons{
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#second-container{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menue-buttons{
+    margin-left: 25px;
+    padding: 12px;
+    border-radius: 18px;
+    background-color: white;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+}
+
+.menue-selecte{
+    margin-left: 25px;
+    padding: 12px;
+    border-radius: 18px;
+    background-color: black;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+
+#third-container{
+    width: 71vw;
+    margin-left: 14.8vw;
+}
+
+.pic-card-li{
+    width: 436px;
+    margin-bottom: 10px;
+    list-style: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    break-inside: avoid;
+    position: relative; 
+}
+
+.download-button{
+    position: absolute; 
+    bottom: 15px;
+    right: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 22px;
+    border-radius: 22px;
+    font-size: large;
+    background-color: burlywood;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+}
+
+.pic-lower-details-button{
+    position: absolute; 
+    bottom: 20px;
+    left: 30px;
+    background-color: white;
+    border: none;
+    font-size: larger;
+    color: gold;
+    background-color: transparent;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+}
+
+.pic-upper-details-button{
+    position: absolute; 
+    right: 60px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: antiquewhite;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+}
+
+.pic-upper-details-button1{
+    position: absolute; 
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    top: 12px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+}
+
+.pic-ul-list{
+    columns: 3 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.pic-card-li:hover{
+    .pic-upper-details-button1{
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .pic-upper-details-button{
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .pic-lower-details-button{
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .download-button{
+        visibility: visible;
+        cursor: pointer;
+    }
+}
+
+#heading{
+    margin: 25px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.695);
+}
+
+.hover{
+    cursor: pointer;
+}
